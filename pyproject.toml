@@ -25,7 +25,7 @@ classifiers = [
     "Topic :: Software Development :: Quality Assurance",
 ]
 dependencies = [
-    "mcp>=1.0.0,<2",
+    "mcp>=1.30.0,<2",
     "fastmcp>=0.1.0,<2",
     "tree-sitter>=0.23.0,<1",
     "tree-sitter-language-pack>=0.3.0,<1",
@@ -45,7 +45,7 @@ code-review-graph = "code_review_graph.cli:main"
 
 [project.optional-dependencies]
 embeddings = [
-    "sentence-transformers>=3.0.0,<4",
+    "sentence-transformers>=5.6.0,<6",
     "numpy>=1.26,<3",
 ]
 google-embeddings = [
